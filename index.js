@@ -2,11 +2,27 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
+const cors = require('cors'); // Importation du module CORS
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Middleware pour parser les requêtes en JSON
 app.use(express.json());
+
+// Configuration de CORS pour autoriser plusieurs origines
+const allowedOrigins = ['http://localhost:5173', 'https://recipify-mu.vercel.app'];
+app.use(cors({
+    origin: function (origin, callback) {
+        // Autoriser les requêtes sans origine (comme les requêtes internes)
+        if (!origin) return callback(null, true);
+
+        if (allowedOrigins.indexOf(origin) !== -1) {
+            return callback(null, true);
+        } else {
+            return callback(new Error('Not allowed by CORS'));
+        }
+    }
+}));
 
 // Chemin absolu vers le fichier db.json
 const dbFilePath = path.join(__dirname, 'db.json');
