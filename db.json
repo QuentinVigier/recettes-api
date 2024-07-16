@@ -1,0 +1,26 @@
+{
+    "recettes": [
+        {
+            "id": 1,
+            "nom": "Spaghetti Carbonara",
+            "ingredients": [
+                "spaghetti",
+                "œufs",
+                "parmesan",
+                "pancetta",
+                "poivre"
+            ]
+        },
+        {
+            "id": 2,
+            "nom": "Salade César",
+            "ingredients": [
+                "laitue romaine",
+                "croutons",
+                "parmesan",
+                "poulet",
+                "sauce César"
+            ]
+        }
+    ]
+}
