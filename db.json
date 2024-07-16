@@ -9,7 +9,7 @@
         "région": "Amérique du Nord",
         "ingrédients": "Laitue romaine, Croûtons, Parmesan, Poulet grillé, Sauce César",
         "instructions": "1. Laver et couper la laitue. 2. Ajouter les croûtons et le parmesan. 3. Mélanger avec la sauce César. 4. Ajouter le poulet grillé en tranches.",
-        "nombre de portions": "2",
+        "portions": "2",
         "conseils": "Utilisez de la laitue fraîche pour une meilleure texture."
     },
     {
@@ -22,7 +22,7 @@
         "région": "Amérique du Nord",
         "ingrédients": "Farine, Lait, Œufs, Sucre, Beurre, Levure chimique, Sel",
         "instructions": "1. Mélanger les ingrédients secs. 2. Ajouter les œufs, le lait et le beurre fondu. 3. Cuire à feu moyen jusqu'à ce que des bulles apparaissent. 4. Retourner et cuire jusqu'à doré.",
-        "nombre de portions": "4",
+        "portions": "4",
         "conseils": "Ajouter des fruits frais ou du sirop d'érable pour plus de saveur."
     },
     {
