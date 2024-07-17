@@ -42,22 +42,39 @@ app.get('/recettes', (req, res) => {
 });
 
 // Nouvelle route pour la recherche
-app.get('/recherche', (req, res) => {
-    const query = req.query.query.toLowerCase();
-    
-    fs.readFile(dbFilePath, 'utf8', (err, data) => {
-        if (err) {
-            return res.status(500).json({ error: 'Erreur de lecture du fichier' });
+app.get('/search', (req, res) => {
+    try {
+        const query = req.query.query ? req.query.query.toLowerCase() : '';
+        
+        if (!query) {
+            return res.status(400).json({ error: 'Paramètre de recherche manquant' });
         }
 
-        const recettes = JSON.parse(data);
-        const resultats = recettes.filter(recette => 
-            recette.name.toLowerCase().includes(query) ||
-            recette.ingrédients.some(ingredient => ingredient.toLowerCase().includes(query))
-        );
+        fs.readFile(dbFilePath, 'utf8', (err, data) => {
+            if (err) {
+                console.error('Erreur de lecture du fichier:', err);
+                return res.status(500).json({ error: 'Erreur de lecture du fichier' });
+            }
 
-        res.json(resultats);
-    });
+            let recettes;
+            try {
+                recettes = JSON.parse(data);
+            } catch (jsonError) {
+                console.error('Erreur de parsing JSON:', jsonError);
+                return res.status(500).json({ error: 'Erreur de parsing JSON' });
+            }
+
+            const resultats = recettes.filter(recette => 
+                recette.name.toLowerCase().includes(query) ||
+                recette.ingrédients.some(ingredient => ingredient.toLowerCase().includes(query))
+            );
+
+            res.json(resultats);
+        });
+    } catch (error) {
+        console.error('Erreur inattendue:', error);
+        res.status(500).json({ error: 'Erreur serveur inattendue' });
+    }
 });
 
 // Démarrage du serveur
