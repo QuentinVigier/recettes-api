@@ -1,4 +1,3 @@
-// index.js
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
@@ -39,6 +38,25 @@ app.get('/recettes', (req, res) => {
             return res.status(500).json({ error: 'Erreur de lecture du fichier' });
         }
         res.json(JSON.parse(data));
+    });
+});
+
+// Nouvelle route pour la recherche
+app.get('/recherche', (req, res) => {
+    const query = req.query.query.toLowerCase();
+    
+    fs.readFile(dbFilePath, 'utf8', (err, data) => {
+        if (err) {
+            return res.status(500).json({ error: 'Erreur de lecture du fichier' });
+        }
+
+        const recettes = JSON.parse(data);
+        const resultats = recettes.filter(recette => 
+            recette.name.toLowerCase().includes(query) ||
+            recette.ingrédients.some(ingredient => ingredient.toLowerCase().includes(query))
+        );
+
+        res.json(resultats);
     });
 });
 
