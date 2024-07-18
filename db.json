@@ -7,7 +7,28 @@
         "difficulté": "Facile",
         "type": "Entrées",
         "région": "Amérique du Nord",
-        "ingrédients": "Laitue romaine, Croûtons, Parmesan, Poulet grillé, Sauce César",
+        "ingrédients": [
+            {
+                "nom": "Laitue romaine",
+                "quantité": "2 tasses"
+            },
+            {
+                "nom": "Croûtons",
+                "quantité": "1 tasse"
+            },
+            {
+                "nom": "Parmesan",
+                "quantité": "1/2 tasse"
+            },
+            {
+                "nom": "Poulet grillé",
+                "quantité": "1 poitrine"
+            },
+            {
+                "nom": "Sauce César",
+                "quantité": "1/4 tasse"
+            }
+        ],
         "instructions": "1. Laver et couper la laitue. 2. Ajouter les croûtons et le parmesan. 3. Mélanger avec la sauce César. 4. Ajouter le poulet grillé en tranches.",
         "portions": "2",
         "conseils": "Utilisez de la laitue fraîche pour une meilleure texture."
@@ -20,7 +41,36 @@
         "difficulté": "Facile",
         "type": "Petit-déjeuner",
         "région": "Amérique du Nord",
-        "ingrédients": "Farine, Lait, Œufs, Sucre, Beurre, Levure chimique, Sel",
+        "ingrédients": [
+            {
+                "nom": "Farine",
+                "quantité": "2 tasses"
+            },
+            {
+                "nom": "Lait",
+                "quantité": "1 tasse"
+            },
+            {
+                "nom": "Œufs",
+                "quantité": "2"
+            },
+            {
+                "nom": "Sucre",
+                "quantité": "1/2 tasse"
+            },
+            {
+                "nom": "Beurre",
+                "quantité": "1/4 tasse"
+            },
+            {
+                "nom": "Levure chimique",
+                "quantité": "1 cuillère à soupe"
+            },
+            {
+                "nom": "Sel",
+                "quantité": "1/2 cuillère à café"
+            }
+        ],
         "instructions": "1. Mélanger les ingrédients secs. 2. Ajouter les œufs, le lait et le beurre fondu. 3. Cuire à feu moyen jusqu'à ce que des bulles apparaissent. 4. Retourner et cuire jusqu'à doré.",
         "portions": "4",
         "conseils": "Ajouter des fruits frais ou du sirop d'érable pour plus de saveur."
@@ -33,7 +83,40 @@
         "difficulté": "Moyenne",
         "type": "Déjeuner",
         "région": "Inde",
-        "ingrédients": "Poulet, Yaourt, Ail, Gingembre, Tomates, Épices (garam masala, cumin, coriandre)",
+        "ingrédients": [
+            {
+                "nom": "Poulet",
+                "quantité": "500g"
+            },
+            {
+                "nom": "Yaourt",
+                "quantité": "200g"
+            },
+            {
+                "nom": "Ail",
+                "quantité": "3 gousses"
+            },
+            {
+                "nom": "Gingembre",
+                "quantité": "1 cuillère à soupe"
+            },
+            {
+                "nom": "Tomates",
+                "quantité": "400g"
+            },
+            {
+                "nom": "garam masala",
+                "quantité": "1 cuillère à café"
+            },
+            {
+                "nom": "cumin",
+                "quantité": "1 cuillère à café"
+            },
+            {
+                "nom": "coriandre",
+                "quantité": "1 cuillère à café"
+            }
+        ],
         "instructions": "1. Mariner le poulet avec le yaourt et les épices. 2. Griller le poulet. 3. Préparer la sauce avec les tomates et les épices. 4. Ajouter le poulet grillé à la sauce et cuire jusqu'à épaissi.",
         "nombre de portions": "4",
         "conseils": "Servir avec du riz basmati ou des naan."
@@ -46,7 +129,32 @@
         "difficulté": "Moyenne",
         "type": "Desserts",
         "région": "Italie",
-        "ingrédients": "Mascarpone, Œufs, Sucre, Café, Biscuits à la cuillère, Cacao en poudre",
+        "ingrédients": [
+            {
+                "nom": "Mascarpone",
+                "quantité": "250g"
+            },
+            {
+                "nom": "Œufs",
+                "quantité": "3"
+            },
+            {
+                "nom": "Sucre",
+                "quantité": "100g"
+            },
+            {
+                "nom": "Café",
+                "quantité": "200ml"
+            },
+            {
+                "nom": "Biscuits à la cuillère",
+                "quantité": "24"
+            },
+            {
+                "nom": "Cacao en poudre",
+                "quantité": "2 cuillères à soupe"
+            }
+        ],
         "instructions": "1. Battre les jaunes d'œufs avec le sucre. 2. Ajouter le mascarpone. 3. Monter les blancs en neige et les incorporer. 4. Tremper les biscuits dans le café. 5. Alterner couches de crème et de biscuits. 6. Réfrigérer et saupoudrer de cacao avant de servir.",
         "nombre de portions": "6",
         "conseils": "Laisser reposer au réfrigérateur au moins 4 heures pour de meilleures saveurs."
@@ -59,7 +167,36 @@
         "difficulté": "Facile",
         "type": "Accompagnements",
         "région": "Asie",
-        "ingrédients": "Brocoli, Carottes, Poivrons, Sauce soja, Ail, Gingembre, Huile de sésame",
+        "ingrédients": [
+            {
+                "nom": "Brocoli",
+                "quantité": "1 tête"
+            },
+            {
+                "nom": "Carottes",
+                "quantité": "3"
+            },
+            {
+                "nom": "Poivrons",
+                "quantité": "2"
+            },
+            {
+                "nom": "Sauce soja",
+                "quantité": "3 cuillères à soupe"
+            },
+            {
+                "nom": "Ail",
+                "quantité": "2 gousses"
+            },
+            {
+                "nom": "Gingembre",
+                "quantité": "1 cuillère à soupe"
+            },
+            {
+                "nom": "Huile de sésame",
+                "quantité": "2 cuillères à soupe"
+            }
+        ],
         "instructions": "1. Couper les légumes en morceaux. 2. Faire chauffer l'huile et ajouter l'ail et le gingembre. 3. Ajouter les légumes et la sauce soja. 4. Sauter jusqu'à ce que les légumes soient tendres.",
         "nombre de portions": "4",
         "conseils": "Servir avec du riz pour un plat complet."
@@ -72,7 +209,28 @@
         "difficulté": "Facile",
         "type": "Boissons",
         "région": "Mexique",
-        "ingrédients": "Tequila, Triple sec, Jus de citron vert, Sel, Glace",
+        "ingrédients": [
+            {
+                "nom": "Tequila",
+                "quantité": "50ml"
+            },
+            {
+                "nom": "Triple sec",
+                "quantité": "25ml"
+            },
+            {
+                "nom": "Jus de citron vert",
+                "quantité": "30ml"
+            },
+            {
+                "nom": "Sel",
+                "quantité": "1 pincée"
+            },
+            {
+                "nom": "Glace",
+                "quantité": "1 tasse"
+            }
+        ],
         "instructions": "1. Mélanger la tequila, le triple sec et le jus de citron vert avec de la glace. 2. Secouer vigoureusement. 3. Passer dans un verre à cocktail au bord salé.",
         "nombre de portions": "1",
         "conseils": "Utilisez du jus de citron vert frais pour un meilleur goût."
@@ -85,7 +243,40 @@
         "difficulté": "Moyenne",
         "type": "Entrées",
         "région": "France",
-        "ingrédients": "Pâte brisée, Lardons, Crème fraîche, Œufs, Fromage râpé, Muscade, Sel, Poivre",
+        "ingrédients": [
+            {
+                "nom": "Pâte brisée",
+                "quantité": "1 rouleau"
+            },
+            {
+                "nom": "Lardons",
+                "quantité": "150g"
+            },
+            {
+                "nom": "Crème fraîche",
+                "quantité": "200ml"
+            },
+            {
+                "nom": "Œufs",
+                "quantité": "3"
+            },
+            {
+                "nom": "Fromage râpé",
+                "quantité": "100g"
+            },
+            {
+                "nom": "Muscade",
+                "quantité": "1/2 cuillère à café"
+            },
+            {
+                "nom": "Sel",
+                "quantité": "1 cuillère à café"
+            },
+            {
+                "nom": "Poivre",
+                "quantité": "1/2 cuillère à café"
+            }
+        ],
         "instructions": "1. Préchauffer le four à 180°C. 2. Faire cuire les lardons. 3. Battre les œufs avec la crème, le sel, le poivre et la muscade. 4. Étaler la pâte dans un moule, ajouter les lardons et verser le mélange d'œufs. 5. Saupoudrer de fromage râpé. 6. Cuire au four pendant 30-35 minutes.",
         "nombre de portions": "6",
         "conseils": "Servir avec une salade verte pour un repas équilibré."
@@ -98,7 +289,28 @@
         "difficulté": "Facile",
         "type": "Petit-déjeuner",
         "région": "International",
-        "ingrédients": "Banane, Fraises, Yaourt, Jus d'orange, Miel",
+        "ingrédients": [
+            {
+                "nom": "Banane",
+                "quantité": "2"
+            },
+            {
+                "nom": "Fraises",
+                "quantité": "150g"
+            },
+            {
+                "nom": "Yaourt",
+                "quantité": "200g"
+            },
+            {
+                "nom": "Jus d'orange",
+                "quantité": "100ml"
+            },
+            {
+                "nom": "Miel",
+                "quantité": "1 cuillère à soupe"
+            }
+        ],
         "instructions": "1. Mélanger tous les ingrédients dans un mixeur. 2. Mixer jusqu'à consistance lisse. 3. Verser dans un verre et servir frais.",
         "nombre de portions": "2",
         "conseils": "Ajouter des graines de chia ou de lin pour plus de nutriments."
@@ -111,7 +323,44 @@
         "difficulté": "Difficile",
         "type": "Déjeuner",
         "région": "Japon",
-        "ingrédients": "Riz à sushi, Vinaigre de riz, Sucre, Sel, Nori, Poisson cru, Avocat, Concombre, Sauce soja",
+        "ingrédients": [
+            {
+                "nom": "Riz à sushi",
+                "quantité": "250g"
+            },
+            {
+                "nom": "Vinaigre de riz",
+                "quantité": "60ml"
+            },
+            {
+                "nom": "Sucre",
+                "quantité": "2 cuillères à soupe"
+            },
+            {
+                "nom": "Sel",
+                "quantité": "1 cuillère à café"
+            },
+            {
+                "nom": "Nori",
+                "quantité": "6 feuilles"
+            },
+            {
+                "nom": "Poisson cru",
+                "quantité": "200g"
+            },
+            {
+                "nom": "Avocat",
+                "quantité": "1"
+            },
+            {
+                "nom": "Concombre",
+                "quantité": "1"
+            },
+            {
+                "nom": "Sauce soja",
+                "quantité": "50ml"
+            }
+        ],
         "instructions": "1. Préparer le riz à sushi avec le vinaigre, le sucre et le sel. 2. Étaler le riz sur une feuille de nori. 3. Ajouter le poisson, l'avocat et le concombre. 4. Rouler fermement et couper en morceaux. 5. Servir avec de la sauce soja.",
         "nombre de portions": "4",
         "conseils": "Utilisez un tapis de bambou pour rouler les sushi plus facilement."
@@ -124,7 +373,28 @@
         "difficulté": "Moyenne",
         "type": "Desserts",
         "région": "France",
-        "ingrédients": "Crème liquide, Jaunes d'œufs, Sucre, Vanille, Cassonade",
+        "ingrédients": [
+            {
+                "nom": "Crème liquide",
+                "quantité": "500ml"
+            },
+            {
+                "nom": "Jaunes d'œufs",
+                "quantité": "4"
+            },
+            {
+                "nom": "Sucre",
+                "quantité": "100g"
+            },
+            {
+                "nom": "Vanille",
+                "quantité": "1 gousse"
+            },
+            {
+                "nom": "Cassonade",
+                "quantité": "50g"
+            }
+        ],
         "instructions": "1. Préchauffer le four à 150°C. 2. Chauffer la crème avec la vanille. 3. Battre les jaunes d'œufs avec le sucre. 4. Ajouter la crème chaude aux jaunes d'œufs en remuant. 5. Verser dans des ramequins et cuire au bain-marie pendant 40 minutes. 6. Saupoudrer de cassonade et caraméliser au chalumeau avant de servir.",
         "nombre de portions": "4",
         "conseils": "Laisser refroidir au réfrigérateur avant de caraméliser pour un meilleur contraste de texture."
@@ -137,7 +407,32 @@
         "difficulté": "Facile",
         "type": "Accompagnements",
         "région": "Moyen-Orient",
-        "ingrédients": "Pois chiches, Tahini, Ail, Jus de citron, Huile d'olive, Sel",
+        "ingrédients": [
+            {
+                "nom": "Pois chiches",
+                "quantité": "400g (en boîte ou cuits)"
+            },
+            {
+                "nom": "Tahini",
+                "quantité": "3 cuillères à soupe"
+            },
+            {
+                "nom": "Ail",
+                "quantité": "2 gousses"
+            },
+            {
+                "nom": "Jus de citron",
+                "quantité": "2 cuillères à soupe"
+            },
+            {
+                "nom": "Huile d'olive",
+                "quantité": "2 cuillères à soupe"
+            },
+            {
+                "nom": "Sel",
+                "quantité": "1/2 cuillère à café"
+            }
+        ],
         "instructions": "1. Mixer les pois chiches avec le tahini, l'ail, le jus de citron et le sel. 2. Ajouter de l'huile d'olive pour obtenir la consistance désirée. 3. Servir avec des légumes ou du pain pita.",
         "nombre de portions": "4",
         "conseils": "Ajouter du paprika ou du cumin pour plus de saveur."
@@ -150,7 +445,32 @@
         "difficulté": "Facile",
         "type": "Boissons",
         "région": "Cuba",
-        "ingrédients": "Rhum blanc, Menthe, Citron vert, Sucre, Eau gazeuse, Glace",
+        "ingrédients": [
+            {
+                "nom": "Rhum blanc",
+                "quantité": "50ml"
+            },
+            {
+                "nom": "Menthe",
+                "quantité": "10 feuilles"
+            },
+            {
+                "nom": "Citron vert",
+                "quantité": "1"
+            },
+            {
+                "nom": "Sucre",
+                "quantité": "2 cuillères à café"
+            },
+            {
+                "nom": "Eau gazeuse",
+                "quantité": "150ml"
+            },
+            {
+                "nom": "Glace",
+                "quantité": "1 tasse"
+            }
+        ],
         "instructions": "1. Écraser la menthe avec le sucre et le jus de citron vert. 2. Ajouter le rhum et mélanger. 3. Remplir le verre de glace et compléter avec de l'eau gazeuse.",
         "nombre de portions": "1",
         "conseils": "Utilisez des feuilles de menthe fraîches pour une meilleure saveur."
@@ -163,7 +483,36 @@
         "difficulté": "Moyenne",
         "type": "Entrées",
         "région": "France",
-        "ingrédients": "Oignons, Bouillon de bœuf, Vin blanc, Beurre, Farine, Pain, Fromage râpé",
+        "ingrédients": [
+            {
+                "nom": "Oignons",
+                "quantité": "3 moyens"
+            },
+            {
+                "nom": "Bouillon de bœuf",
+                "quantité": "750ml"
+            },
+            {
+                "nom": "Vin blanc",
+                "quantité": "200ml"
+            },
+            {
+                "nom": "Beurre",
+                "quantité": "50g"
+            },
+            {
+                "nom": "Farine",
+                "quantité": "2 cuillères à soupe"
+            },
+            {
+                "nom": "Pain",
+                "quantité": "4 tranches"
+            },
+            {
+                "nom": "Fromage râpé",
+                "quantité": "150g"
+            }
+        ],
         "instructions": "1. Faire revenir les oignons dans le beurre jusqu'à caramélisation. 2. Saupoudrer de farine et cuire 1 minute. 3. Ajouter le vin et le bouillon, cuire 30 minutes. 4. Verser la soupe dans des bols, ajouter du pain grillé et du fromage râpé. 5. Gratiner au four jusqu'à doré.",
         "nombre de portions": "4",
         "conseils": "Utilisez un bouillon de qualité pour une meilleure saveur."
@@ -176,7 +525,32 @@
         "difficulté": "Facile",
         "type": "Petit-déjeuner",
         "région": "International",
-        "ingrédients": "Avocat, Pain, Citron, Sel, Poivre, Piment rouge",
+        "ingrédients": [
+            {
+                "nom": "Avocat",
+                "quantité": "2"
+            },
+            {
+                "nom": "Pain",
+                "quantité": "4 tranches"
+            },
+            {
+                "nom": "Citron",
+                "quantité": "1"
+            },
+            {
+                "nom": "Sel",
+                "quantité": "1/2 cuillère à café"
+            },
+            {
+                "nom": "Poivre",
+                "quantité": "1/2 cuillère à café"
+            },
+            {
+                "nom": "Piment rouge",
+                "quantité": "1 petit, haché finement"
+            }
+        ],
         "instructions": "1. Écraser l'avocat avec le jus de citron, le sel et le poivre. 2. Tartiner sur du pain grillé. 3. Saupoudrer de piment rouge.",
         "nombre de portions": "2",
         "conseils": "Ajouter un œuf poché pour plus de protéines."
@@ -189,7 +563,44 @@
         "difficulté": "Difficile",
         "type": "Déjeuner",
         "région": "France",
-        "ingrédients": "Bœuf, Vin rouge, Carottes, Oignons, Champignons, Lardons, Farine, Ail, Bouillon de bœuf",
+        "ingrédients": [
+            {
+                "nom": "Bœuf",
+                "quantité": "800g"
+            },
+            {
+                "nom": "Vin rouge",
+                "quantité": "250ml"
+            },
+            {
+                "nom": "Carottes",
+                "quantité": "3"
+            },
+            {
+                "nom": "Oignons",
+                "quantité": "2 moyens"
+            },
+            {
+                "nom": "Champignons",
+                "quantité": "200g"
+            },
+            {
+                "nom": "Lardons",
+                "quantité": "150g"
+            },
+            {
+                "nom": "Farine",
+                "quantité": "2 cuillères à soupe"
+            },
+            {
+                "nom": "Ail",
+                "quantité": "3 gousses"
+            },
+            {
+                "nom": "Bouillon de bœuf",
+                "quantité": "500ml"
+            }
+        ],
         "instructions": "1. Faire revenir le bœuf et les lardons. 2. Ajouter les légumes et cuire 5 minutes. 3. Saupoudrer de farine et cuire 2 minutes. 4. Ajouter le vin et le bouillon, cuire à feu doux pendant 2 heures.",
         "nombre de portions": "4",
         "conseils": "Servir avec des pommes de terre ou des pâtes."
@@ -202,7 +613,36 @@
         "difficulté": "Moyenne",
         "type": "Desserts",
         "région": "États-Unis",
-        "ingrédients": "Biscuits, Beurre, Fromage à la crème, Sucre, Œufs, Vanille, Crème épaisse",
+        "ingrédients": [
+            {
+                "nom": "Biscuits",
+                "quantité": "200g"
+            },
+            {
+                "nom": "Beurre",
+                "quantité": "100g"
+            },
+            {
+                "nom": "Fromage à la crème",
+                "quantité": "300g"
+            },
+            {
+                "nom": "Sucre",
+                "quantité": "150g"
+            },
+            {
+                "nom": "Œufs",
+                "quantité": "3"
+            },
+            {
+                "nom": "Vanille",
+                "quantité": "1 cuillère à café"
+            },
+            {
+                "nom": "Crème épaisse",
+                "quantité": "200ml"
+            }
+        ],
         "instructions": "1. Mélanger les biscuits écrasés avec le beurre fondu et presser dans un moule. 2. Battre le fromage à la crème avec le sucre et la vanille. 3. Ajouter les œufs un à un. 4. Verser la préparation sur la croûte et cuire au four à 160°C pendant 45 minutes. 5. Laisser refroidir et réfrigérer.",
         "nombre de portions": "8",
         "conseils": "Servir avec un coulis de fruits rouges."
@@ -215,7 +655,36 @@
         "difficulté": "Facile",
         "type": "Entrées",
         "région": "Italie",
-        "ingrédients": "Pain, Tomates, Ail, Basilic, Huile d'olive, Sel, Poivre",
+        "ingrédients": [
+            {
+                "nom": "Pain",
+                "quantité": "4 tranches"
+            },
+            {
+                "nom": "Tomates",
+                "quantité": "4 moyennes"
+            },
+            {
+                "nom": "Ail",
+                "quantité": "2 gousses"
+            },
+            {
+                "nom": "Basilic",
+                "quantité": "1 bouquet"
+            },
+            {
+                "nom": "Huile d'olive",
+                "quantité": "3 cuillères à soupe"
+            },
+            {
+                "nom": "Sel",
+                "quantité": "1/2 cuillère à café"
+            },
+            {
+                "nom": "Poivre",
+                "quantité": "1/4 cuillère à café"
+            }
+        ],
         "instructions": "1. Griller les tranches de pain. 2. Frotter avec l'ail. 3. Mélanger les tomates coupées en dés avec l'huile d'olive, le basilic, le sel et le poivre. 4. Garnir les tranches de pain avec le mélange de tomates.",
         "nombre de portions": "4",
         "conseils": "Utilisez des tomates bien mûres pour plus de saveur."
@@ -228,7 +697,40 @@
         "difficulté": "Moyenne",
         "type": "Déjeuner",
         "région": "Mexique",
-        "ingrédients": "Bœuf haché, Haricots rouges, Tomates, Oignons, Ail, Chili en poudre, Cumin, Bouillon de bœuf",
+        "ingrédients": [
+            {
+                "nom": "Bœuf haché",
+                "quantité": "500g"
+            },
+            {
+                "nom": "Haricots rouges",
+                "quantité": "400g (en boîte ou cuits)"
+            },
+            {
+                "nom": "Tomates",
+                "quantité": "400g"
+            },
+            {
+                "nom": "Oignons",
+                "quantité": "2 moyens"
+            },
+            {
+                "nom": "Ail",
+                "quantité": "3 gousses"
+            },
+            {
+                "nom": "Chili en poudre",
+                "quantité": "1 cuillère à soupe"
+            },
+            {
+                "nom": "Cumin",
+                "quantité": "1 cuillère à café"
+            },
+            {
+                "nom": "Bouillon de bœuf",
+                "quantité": "500ml"
+            }
+        ],
         "instructions": "1. Faire revenir le bœuf avec les oignons et l'ail. 2. Ajouter les épices et cuire 2 minutes. 3. Ajouter les tomates et le bouillon, cuire 1 heure. 4. Ajouter les haricots et cuire 30 minutes de plus.",
         "nombre de portions": "6",
         "conseils": "Servir avec du riz ou des tortillas."
@@ -241,7 +743,32 @@
         "difficulté": "Moyenne",
         "type": "Desserts",
         "région": "France",
-        "ingrédients": "Chocolat noir, Beurre, Sucre, Œufs, Farine, Poudre d'amande",
+        "ingrédients": [
+            {
+                "nom": "Chocolat noir",
+                "quantité": "200g"
+            },
+            {
+                "nom": "Beurre",
+                "quantité": "100g"
+            },
+            {
+                "nom": "Sucre",
+                "quantité": "150g"
+            },
+            {
+                "nom": "Œufs",
+                "quantité": "3"
+            },
+            {
+                "nom": "Farine",
+                "quantité": "100g"
+            },
+            {
+                "nom": "Poudre d'amande",
+                "quantité": "100g"
+            }
+        ],
         "instructions": "1. Préchauffer le four à 180°C. 2. Faire fondre le chocolat avec le beurre. 3. Battre les œufs avec le sucre. 4. Ajouter la farine et la poudre d'amande, puis le mélange chocolat-beurre. 5. Verser dans un moule et cuire 25 minutes.",
         "nombre de portions": "8",
         "conseils": "Laisser refroidir avant de démouler pour éviter qu'il ne se casse."
@@ -254,7 +781,44 @@
         "difficulté": "Moyenne",
         "type": "Accompagnements",
         "région": "Moyen-Orient",
-        "ingrédients": "Pois chiches, Ail, Oignons, Persil, Cumin, Coriandre, Farine, Sel, Poivre",
+        "ingrédients": [
+            {
+                "nom": "Pois chiches",
+                "quantité": "400g (en boîte ou cuits)"
+            },
+            {
+                "nom": "Ail",
+                "quantité": "3 gousses"
+            },
+            {
+                "nom": "Oignons",
+                "quantité": "2 moyens"
+            },
+            {
+                "nom": "Persil",
+                "quantité": "1 bouquet"
+            },
+            {
+                "nom": "Cumin",
+                "quantité": "1 cuillère à café"
+            },
+            {
+                "nom": "Coriandre",
+                "quantité": "1 cuillère à café"
+            },
+            {
+                "nom": "Farine",
+                "quantité": "3 cuillères à soupe"
+            },
+            {
+                "nom": "Sel",
+                "quantité": "1 cuillère à café"
+            },
+            {
+                "nom": "Poivre",
+                "quantité": "1/2 cuillère à café"
+            }
+        ],
         "instructions": "1. Mixer les pois chiches avec l'ail, l'oignon, le persil et les épices. 2. Ajouter la farine pour lier. 3. Former des boulettes et frire jusqu'à doré.",
         "nombre de portions": "4",
         "conseils": "Servir avec une sauce tahini ou du yaourt."
@@ -267,7 +831,28 @@
         "difficulté": "Facile",
         "type": "Boissons",
         "région": "Inde",
-        "ingrédients": "Mangue, Yaourt, Lait, Sucre, Cardamome",
+        "ingrédients": [
+            {
+                "nom": "Mangue",
+                "quantité": "1 grande, pelée et coupée en morceaux"
+            },
+            {
+                "nom": "Yaourt",
+                "quantité": "200g"
+            },
+            {
+                "nom": "Lait",
+                "quantité": "150ml"
+            },
+            {
+                "nom": "Sucre",
+                "quantité": "2 cuillères à soupe"
+            },
+            {
+                "nom": "Cardamome",
+                "quantité": "1/2 cuillère à café (en poudre)"
+            }
+        ],
         "instructions": "1. Mixer la mangue avec le yaourt, le lait, le sucre et la cardamome. 2. Servir frais.",
         "nombre de portions": "2",
         "conseils": "Utiliser des mangues bien mûres pour plus de douceur."
@@ -280,7 +865,36 @@
         "difficulté": "Facile",
         "type": "Déjeuner",
         "région": "Italie",
-        "ingrédients": "Spaghetti, Lardons, Œufs, Parmesan, Crème, Ail, Poivre",
+        "ingrédients": [
+            {
+                "nom": "Spaghetti",
+                "quantité": "250g"
+            },
+            {
+                "nom": "Lardons",
+                "quantité": "150g"
+            },
+            {
+                "nom": "Œufs",
+                "quantité": "2"
+            },
+            {
+                "nom": "Parmesan",
+                "quantité": "50g, râpé"
+            },
+            {
+                "nom": "Crème",
+                "quantité": "100ml"
+            },
+            {
+                "nom": "Ail",
+                "quantité": "2 gousses"
+            },
+            {
+                "nom": "Poivre",
+                "quantité": "1/2 cuillère à café"
+            }
+        ],
         "instructions": "1. Faire cuire les spaghetti. 2. Faire revenir les lardons et l'ail. 3. Battre les œufs avec la crème et le parmesan. 4. Mélanger les pâtes avec les lardons et ajouter la sauce. 5. Poivrer généreusement.",
         "nombre de portions": "4",
         "conseils": "Servir immédiatement pour éviter que les œufs ne coagulent."
@@ -293,7 +907,32 @@
         "difficulté": "Facile",
         "type": "Desserts",
         "région": "États-Unis",
-        "ingrédients": "Chocolat, Beurre, Sucre, Œufs, Farine, Noix",
+        "ingrédients": [
+            {
+                "nom": "Chocolat",
+                "quantité": "200g"
+            },
+            {
+                "nom": "Beurre",
+                "quantité": "100g"
+            },
+            {
+                "nom": "Sucre",
+                "quantité": "150g"
+            },
+            {
+                "nom": "Œufs",
+                "quantité": "3"
+            },
+            {
+                "nom": "Farine",
+                "quantité": "100g"
+            },
+            {
+                "nom": "Noix",
+                "quantité": "100g, concassées"
+            }
+        ],
         "instructions": "1. Préchauffer le four à 180°C. 2. Faire fondre le chocolat avec le beurre. 3. Battre les œufs avec le sucre. 4. Ajouter la farine et le mélange chocolat-beurre. 5. Incorporer les noix. 6. Verser dans un moule et cuire 25 minutes.",
         "nombre de portions": "12",
         "conseils": "Laisser refroidir avant de couper en carrés."
@@ -306,7 +945,32 @@
         "difficulté": "Facile",
         "type": "Accompagnements",
         "région": "Mexique",
-        "ingrédients": "Avocats, Tomates, Oignons, Coriandre, Jus de citron vert, Sel",
+        "ingrédients": [
+            {
+                "nom": "Avocats",
+                "quantité": "2, mûrs"
+            },
+            {
+                "nom": "Tomates",
+                "quantité": "3 moyennes"
+            },
+            {
+                "nom": "Oignons",
+                "quantité": "1 moyen"
+            },
+            {
+                "nom": "Coriandre",
+                "quantité": "1 bouquet"
+            },
+            {
+                "nom": "Jus de citron vert",
+                "quantité": "2 cuillères à soupe"
+            },
+            {
+                "nom": "Sel",
+                "quantité": "1/2 cuillère à café"
+            }
+        ],
         "instructions": "1. Écraser les avocats. 2. Ajouter les tomates, les oignons, la coriandre et le jus de citron vert. 3. Mélanger et assaisonner de sel.",
         "nombre de portions": "4",
         "conseils": "Servir avec des chips de tortilla."
@@ -319,7 +983,24 @@
         "difficulté": "Facile",
         "type": "Boissons",
         "région": "Maroc",
-        "ingrédients": "Thé vert, Menthe fraîche, Sucre, Eau",
+        "ingrédients": [
+            {
+                "nom": "Thé vert",
+                "quantité": "2 cuillères à café"
+            },
+            {
+                "nom": "Menthe fraîche",
+                "quantité": "1 bouquet"
+            },
+            {
+                "nom": "Sucre",
+                "quantité": "2 à 3 cuillères à soupe (selon le goût)"
+            },
+            {
+                "nom": "Eau",
+                "quantité": "500ml"
+            }
+        ],
         "instructions": "1. Faire bouillir l'eau. 2. Ajouter le thé vert et laisser infuser. 3. Ajouter la menthe et le sucre. 4. Verser dans des verres.",
         "nombre de portions": "4",
         "conseils": "Verser le thé plusieurs fois pour bien mélanger les saveurs."
@@ -332,7 +1013,40 @@
         "difficulté": "Facile",
         "type": "Entrées",
         "région": "France",
-        "ingrédients": "Laitue, Tomates, Œufs durs, Haricots verts, Pommes de terre, Thon, Olives, Vinaigrette",
+        "ingrédients": [
+            {
+                "nom": "Laitue",
+                "quantité": "1 tête"
+            },
+            {
+                "nom": "Tomates",
+                "quantité": "3 moyennes"
+            },
+            {
+                "nom": "Œufs durs",
+                "quantité": "3"
+            },
+            {
+                "nom": "Haricots verts",
+                "quantité": "200g"
+            },
+            {
+                "nom": "Pommes de terre",
+                "quantité": "3 moyennes"
+            },
+            {
+                "nom": "Thon",
+                "quantité": "1 boîte (environ 200g)"
+            },
+            {
+                "nom": "Olives",
+                "quantité": "100g"
+            },
+            {
+                "nom": "Vinaigrette",
+                "quantité": "4 cuillères à soupe"
+            }
+        ],
         "instructions": "1. Cuire les pommes de terre et les haricots verts. 2. Disposer la laitue dans un plat. 3. Ajouter les tomates, les œufs, les pommes de terre, les haricots verts, le thon et les olives. 4. Arroser de vinaigrette.",
         "nombre de portions": "4",
         "conseils": "Utilisez du thon frais pour une meilleure saveur."
@@ -345,7 +1059,36 @@
         "difficulté": "Moyenne",
         "type": "Déjeuner",
         "région": "Italie",
-        "ingrédients": "Riz arborio, Champignons, Bouillon de poulet, Oignons, Vin blanc, Parmesan, Beurre",
+        "ingrédients": [
+            {
+                "nom": "Riz arborio",
+                "quantité": "250g"
+            },
+            {
+                "nom": "Champignons",
+                "quantité": "200g"
+            },
+            {
+                "nom": "Bouillon de poulet",
+                "quantité": "750ml"
+            },
+            {
+                "nom": "Oignons",
+                "quantité": "1 moyen"
+            },
+            {
+                "nom": "Vin blanc",
+                "quantité": "150ml"
+            },
+            {
+                "nom": "Parmesan",
+                "quantité": "50g, râpé"
+            },
+            {
+                "nom": "Beurre",
+                "quantité": "30g"
+            }
+        ],
         "instructions": "1. Faire revenir les oignons et les champignons. 2. Ajouter le riz et cuire jusqu'à translucide. 3. Déglacer avec le vin blanc. 4. Ajouter le bouillon petit à petit en remuant. 5. Ajouter le beurre et le parmesan hors du feu.",
         "nombre de portions": "4",
         "conseils": "Servir immédiatement pour une texture crémeuse."
@@ -358,7 +1101,28 @@
         "difficulté": "Facile",
         "type": "Petit-déjeuner",
         "région": "France",
-        "ingrédients": "Farine, Lait, Œufs, Sucre, Beurre",
+        "ingrédients": [
+            {
+                "nom": "Farine",
+                "quantité": "200g"
+            },
+            {
+                "nom": "Lait",
+                "quantité": "250ml"
+            },
+            {
+                "nom": "Œufs",
+                "quantité": "3"
+            },
+            {
+                "nom": "Sucre",
+                "quantité": "100g"
+            },
+            {
+                "nom": "Beurre",
+                "quantité": "50g"
+            }
+        ],
         "instructions": "1. Mélanger la farine, le sucre et les œufs. 2. Ajouter le lait progressivement. 3. Faire cuire les crêpes dans une poêle beurrée.",
         "nombre de portions": "4",
         "conseils": "Servir avec du sucre, de la confiture ou du Nutella."
@@ -371,7 +1135,32 @@
         "difficulté": "Moyenne",
         "type": "Déjeuner",
         "région": "France",
-        "ingrédients": "Pommes de terre, Bœuf haché, Oignons, Lait, Beurre, Fromage râpé",
+        "ingrédients": [
+            {
+                "nom": "Pommes de terre",
+                "quantité": "800g"
+            },
+            {
+                "nom": "Bœuf haché",
+                "quantité": "500g"
+            },
+            {
+                "nom": "Oignons",
+                "quantité": "2 moyens"
+            },
+            {
+                "nom": "Lait",
+                "quantité": "150ml"
+            },
+            {
+                "nom": "Beurre",
+                "quantité": "50g"
+            },
+            {
+                "nom": "Fromage râpé",
+                "quantité": "100g"
+            }
+        ],
         "instructions": "1. Faire cuire les pommes de terre et les écraser avec le lait et le beurre. 2. Faire revenir les oignons et le bœuf haché. 3. Disposer le bœuf dans un plat, ajouter la purée et saupoudrer de fromage. 4. Cuire au four jusqu'à doré.",
         "nombre de portions": "4",
         "conseils": "Servir avec une salade verte."
@@ -384,7 +1173,24 @@
         "difficulté": "Facile",
         "type": "Boissons",
         "région": "Caraïbes",
-        "ingrédients": "Rhum, Jus d'ananas, Crème de coco, Glace",
+        "ingrédients": [
+            {
+                "nom": "Rhum",
+                "quantité": "50ml"
+            },
+            {
+                "nom": "Jus d'ananas",
+                "quantité": "100ml"
+            },
+            {
+                "nom": "Crème de coco",
+                "quantité": "30ml"
+            },
+            {
+                "nom": "Glace",
+                "quantité": "1 tasse"
+            }
+        ],
         "instructions": "1. Mélanger tous les ingrédients dans un mixeur. 2. Servir frais.",
         "nombre de portions": "1",
         "conseils": "Ajouter une tranche d'ananas pour la décoration."
