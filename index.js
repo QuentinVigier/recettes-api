@@ -41,7 +41,7 @@ app.get('/recettes', (req, res) => {
     });
 });
 
-// Nouvelle route pour la recherche
+// Nouvelle route pour la recherche NON FONCTIONNELLE
 app.get('/search', (req, res) => {
     try {
         const query = req.query.query ? req.query.query.toLowerCase() : '';
@@ -75,6 +75,41 @@ app.get('/search', (req, res) => {
         console.error('Erreur inattendue:', error);
         res.status(500).json({ error: 'Erreur serveur inattendue' });
     }
+});
+
+// Nouvelle route POST pour ajouter une recette
+app.post('/recettes', (req, res) => {
+    const nouvelleRecette = req.body;
+
+    if (!nouvelleRecette.name || !nouvelleRecette.ingrédients) {
+        return res.status(400).json({ error: 'Les champs "name" et "ingrédients" sont requis' });
+    }
+
+    fs.readFile(dbFilePath, 'utf8', (err, data) => {
+        if (err) {
+            console.error('Erreur de lecture du fichier:', err);
+            return res.status(500).json({ error: 'Erreur de lecture du fichier' });
+        }
+
+        let recettes;
+        try {
+            recettes = JSON.parse(data);
+        } catch (jsonError) {
+            console.error('Erreur de parsing JSON:', jsonError);
+            return res.status(500).json({ error: 'Erreur de parsing JSON' });
+        }
+
+        recettes.push(nouvelleRecette);
+
+        fs.writeFile(dbFilePath, JSON.stringify(recettes, null, 2), 'utf8', (writeErr) => {
+            if (writeErr) {
+                console.error('Erreur d\'écriture dans le fichier:', writeErr);
+                return res.status(500).json({ error: 'Erreur d\'écriture dans le fichier' });
+            }
+
+            res.status(201).json(nouvelleRecette);
+        });
+    });
 });
 
 // Démarrage du serveur
